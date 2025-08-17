@@ -1,0 +1,49 @@
+<!-- MAKE BY SUMIT PAL -->
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION BY SUMIT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="LOGO4.png">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <form action="thank-you.html">
+      <h2>FORM VALIDATION BY SUMIT</h2>
+      <div class="form-group fullname">
+        <label for="fullname">FULL NAME</label>
+        <input type="text" id="fullname" placeholder="ENTER YOUR FULL NAME">
+      </div>
+      <div class="form-group email">
+        <label for="email">EMAIL ADDRESS</label>
+        <input type="text" id="email" placeholder="ENTER YOUR EMAIL ADDRESS">
+      </div>
+      <div class="form-group password">
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" placeholder="ENTER YOUR PASSWORD">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group date">
+        <label for="date">BIRTH DATE</label>
+        <input type="date" id="date" placeholder="SELECT YOUR DATE">
+      </div>
+      <div class="form-group gender">
+        <label for="gender">GENDER</label>
+        <select id="gender">
+          <option value="" selected disabled>SELECT YOUR GENDER</option>
+          <option value="Male">MALE</option>
+          <option value="Female">FEMALE</option>
+          <option value="Other">OTHER</option>
+        </select>
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
