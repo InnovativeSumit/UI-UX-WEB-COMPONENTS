@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>PASSWORD STRENGTH CHECKER </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image/png" href="LOGO4.png">
+   </head>
+   <body>
+      <div class="container">
+         <header>PASSWORD STRENGTH INDICATOR <br></header>
+         <form action="#">
+            <div class="field">
+               <input onkeyup="trigger()" type="password" placeholder="TYPE PASSWORD">
+               <span class="showBtn">SHOW</span>
+            </div>
+            <div class="indicator">
+               <span class="weak"></span>
+               <span class="medium"></span>
+               <span class="strong"></span>
+            </div>
+            <div class="text"></div>
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
