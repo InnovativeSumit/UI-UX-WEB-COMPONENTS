@@ -1,4 +1,4 @@
-# 🌟 UI/UX Web Components pack
+# 🌟 UI/UX Web Components Pack
 
 ![License](https://img.shields.io/badge/License-MIT-green)  
 ![Tech](https://img.shields.io/badge/Tech-HTML--CSS--JS-blue)  
